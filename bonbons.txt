@@ -7,4 +7,4 @@ Début bonbons (entier bnBonbons)
    Fin Tant que
    retourner nbBonbons
   
-Fin
+Fin bonbons
