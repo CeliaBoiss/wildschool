@@ -1,0 +1,10 @@
+Début bonbons (entier bnBonbons)
+   
+   Tant que argent > 0
+	Si prix > 0
+		nbBonbons <- nbBonbons+1
+	Fin Si
+   Fin Tant que
+   retourner nbBonbons
+  
+Fin
