@@ -2,6 +2,7 @@ Début bonbons (entier bnBonbons)
 
 	Tant que argent > 0 Et prix > 0
 		nbBonbons <- nbBonbons+1
+		argent <- argent-prix
 	Fin Tant que
    retourner nbBonbons
   
