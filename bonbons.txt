@@ -1,8 +1,13 @@
-Début bonbons (entier bnBonbons)
+Début bonbons (réel prix, réel argent)
 
-	Tant que argent > 0 Et prix > 0
-		nbBonbons <- nbBonbons+1
-		argent <- argent-prix
+   entier nbBonbon <- 0
+	Tant que argent >= prix
+		Si argent > 0 Et prix > 0, alors
+			nbBonbons <- nbBonbons+1
+			argent <- argent-prix
+		Sinon
+			argent <- prix - 1
+		Fin Si
 	Fin Tant que
    retourner nbBonbons
   
