@@ -1,0 +1,712 @@
+
+tigro@LAPTOP-B1C50INO MINGW64 ~
+$ pwd
+/c/Users/tigro
+
+tigro@LAPTOP-B1C50INO MINGW64 ~
+$ cd ..
+
+tigro@LAPTOP-B1C50INO MINGW64 /c/Users
+$ ls
+'All Users'@   Default/  'Default User'@   desktop.ini   Public/   tigro/
+
+tigro@LAPTOP-B1C50INO MINGW64 /c/Users
+$ cd default
+
+tigro@LAPTOP-B1C50INO MINGW64 /c/Users/default
+$ ter
+bash: ter: command not found
+
+tigro@LAPTOP-B1C50INO MINGW64 /c/Users/default
+$ ls
+ AppData/             NTUSER.DAT.LOG2
+'Application Data'@   NTUSER.DAT{8cdcee1a-aa5a-11ea-aa60-80304961294c}.TM.blf
+ Cookies@             NTUSER.DAT{8cdcee1a-aa5a-11ea-aa60-80304961294c}.TMContainer00000000000000000001.regtrans-ms
+ Desktop/             NTUSER.DAT{8cdcee1a-aa5a-11ea-aa60-80304961294c}.TMContainer00000000000000000002.regtrans-ms
+ Documents/           NTUSER.DAT{fd9a35db-49fe-11e9-aa2c-248a07783950}.TM.blf
+ Downloads/           NTUSER.DAT{fd9a35db-49fe-11e9-aa2c-248a07783950}.TMContainer00000000000000000001.regtrans-ms
+ Favorites/           NTUSER.DAT{fd9a35db-49fe-11e9-aa2c-248a07783950}.TMContainer00000000000000000002.regtrans-ms
+ Links/               Pictures/
+'Local Settings'@     Recent@
+'Menu Démarrer'@     'Saved Games'/
+'Mes documents'@      SendTo@
+ Modèles@             Videos/
+ Music/              "Voisinage d'impression"@
+ NTUSER.DAT          'Voisinage réseau'@
+ NTUSER.DAT.LOG1
+
+tigro@LAPTOP-B1C50INO MINGW64 /c/Users/default
+$ ls .
+ AppData/             NTUSER.DAT.LOG2
+'Application Data'@   NTUSER.DAT{8cdcee1a-aa5a-11ea-aa60-80304961294c}.TM.blf
+ Cookies@             NTUSER.DAT{8cdcee1a-aa5a-11ea-aa60-80304961294c}.TMContainer00000000000000000001.regtrans-ms
+ Desktop/             NTUSER.DAT{8cdcee1a-aa5a-11ea-aa60-80304961294c}.TMContainer00000000000000000002.regtrans-ms
+ Documents/           NTUSER.DAT{fd9a35db-49fe-11e9-aa2c-248a07783950}.TM.blf
+ Downloads/           NTUSER.DAT{fd9a35db-49fe-11e9-aa2c-248a07783950}.TMContainer00000000000000000001.regtrans-ms
+ Favorites/           NTUSER.DAT{fd9a35db-49fe-11e9-aa2c-248a07783950}.TMContainer00000000000000000002.regtrans-ms
+ Links/               Pictures/
+'Local Settings'@     Recent@
+'Menu Démarrer'@     'Saved Games'/
+'Mes documents'@      SendTo@
+ Modèles@             Videos/
+ Music/              "Voisinage d'impression"@
+ NTUSER.DAT          'Voisinage réseau'@
+ NTUSER.DAT.LOG1
+
+tigro@LAPTOP-B1C50INO MINGW64 /c/Users/default
+$ ls -a
+ ./                   NTUSER.DAT.LOG1
+ ../                  NTUSER.DAT.LOG2
+ AppData/             NTUSER.DAT{8cdcee1a-aa5a-11ea-aa60-80304961294c}.TM.blf
+'Application Data'@   NTUSER.DAT{8cdcee1a-aa5a-11ea-aa60-80304961294c}.TMContainer00000000000000000001.regtrans-ms
+ Cookies@             NTUSER.DAT{8cdcee1a-aa5a-11ea-aa60-80304961294c}.TMContainer00000000000000000002.regtrans-ms
+ Desktop/             NTUSER.DAT{fd9a35db-49fe-11e9-aa2c-248a07783950}.TM.blf
+ Documents/           NTUSER.DAT{fd9a35db-49fe-11e9-aa2c-248a07783950}.TMContainer00000000000000000001.regtrans-ms
+ Downloads/           NTUSER.DAT{fd9a35db-49fe-11e9-aa2c-248a07783950}.TMContainer00000000000000000002.regtrans-ms
+ Favorites/           Pictures/
+ Links/               Recent@
+'Local Settings'@    'Saved Games'/
+'Menu Démarrer'@      SendTo@
+'Mes documents'@      Videos/
+ Modèles@            "Voisinage d'impression"@
+ Music/              'Voisinage réseau'@
+ NTUSER.DAT
+
+tigro@LAPTOP-B1C50INO MINGW64 /c/Users/default
+$ ls images
+ls: cannot access 'images': No such file or directory
+
+tigro@LAPTOP-B1C50INO MINGW64 /c/Users/default
+$ ls Music
+
+tigro@LAPTOP-B1C50INO MINGW64 /c/Users/default
+$ ls /home
+ls: cannot access '/home': No such file or directory
+
+tigro@LAPTOP-B1C50INO MINGW64 /c/Users/default
+$ ls /tigro
+ls: cannot access '/tigro': No such file or directory
+
+tigro@LAPTOP-B1C50INO MINGW64 /c/Users/default
+$ cd /tigro
+bash: cd: /tigro: No such file or directory
+
+tigro@LAPTOP-B1C50INO MINGW64 /c/Users/default
+$ pwd
+/c/Users/default
+
+tigro@LAPTOP-B1C50INO MINGW64 /c/Users/default
+$ cd ..
+
+tigro@LAPTOP-B1C50INO MINGW64 /c/Users
+$ cd tigro
+
+tigro@LAPTOP-B1C50INO MINGW64 ~
+$ pwd
+/c/Users/tigro
+
+tigro@LAPTOP-B1C50INO MINGW64 ~
+$ ls /music
+ls: cannot access '/music': No such file or directory
+
+tigro@LAPTOP-B1C50INO MINGW64 ~
+$ ls Music
+desktop.ini
+
+tigro@LAPTOP-B1C50INO MINGW64 ~
+$ ls /bin
+'[.exe'*                      gobject-query.exe*              msys-heimbase-1.dll*          rnano.exe*
+ addgnupghome*                gpg.exe*                        msys-heimntlm-0.dll*          runcon.exe*
+ applygnupgdefaults*          gpg-agent.exe*                  msys-history8.dll*            rview.exe*
+ arch.exe*                    gpgconf.exe*                    msys-hogweed-6.dll*           rvim.exe*
+ astextplain*                 gpg-connect-agent.exe*          msys-hx509-5.dll*             sasldblistusers2.exe*
+ autopoint*                   gpg-error.exe*                  msys-iconv-2.dll*             saslpasswd2.exe*
+ awk.exe*                     gpgparsemail.exe*               msys-idn2-0.dll*              scp.exe*
+ b2sum.exe*                   gpgscm.exe*                     msys-intl-8.dll*              sdiff.exe*
+ backup*                      gpgsm.exe*                      msys-kadm5clnt-7.dll*         sed.exe*
+ base32.exe*                  gpgtar.exe*                     msys-kadm5srv-8.dll*          seq.exe*
+ base64.exe*                  gpgv.exe*                       msys-kafs-0.dll*              setfacl.exe*
+ basename.exe*                gpg-wks-server.exe*             msys-kdc-2.dll*               setmetamode.exe*
+ basenc.exe*                  grep.exe*                       msys-krb5-26.dll*             sexp-conv.exe*
+ bash.exe*                    groups.exe*                     msys-ksba-8.dll*              sftp.exe*
+ bashbug*                     gsettings.exe*                  msys-lz4-1.dll*               sh.exe*
+ bunzip2.exe*                 gunzip*                         msys-lzma-5.dll*              sha1sum.exe*
+ bzcat.exe*                   gzexe*                          msys-magic-1.dll*             sha224sum.exe*
+ bzcmp*                       gzip.exe*                       msys-menuw6.dll*              sha256sum.exe*
+ bzdiff*                      head.exe*                       msys-metalink-3.dll*          sha384sum.exe*
+ bzegrep*                     hmac256.exe*                    msys-mpfr-6.dll*              sha512sum.exe*
+ bzfgrep*                     hostid.exe*                     msys-ncurses++w6.dll*         shred.exe*
+ bzgrep*                      hostname.exe*                   msys-ncursesw6.dll*           shuf.exe*
+ bzip2.exe*                   iconv.exe*                      msys-nettle-8.dll*            sleep.exe*
+ bzip2recover.exe*            id.exe*                         msys-nghttp2-14.dll*          sort.exe*
+ bzless*                      infocmp.exe*                    msys-npth-0.dll*              split.exe*
+ bzmore*                      infotocap.exe*                  msys-p11-kit-0.dll*           ssh.exe*
+ c_rehash*                    install.exe*                    msys-panelw6.dll*             ssh-add.exe*
+ captoinfo.exe*               join.exe*                       msys-pcre-1.dll*              ssh-agent.exe*
+ cat.exe*                     kbxutil.exe*                    msys-pcre2-8-0.dll*           ssh-copy-id*
+ chattr.exe*                  kill.exe*                       msys-perl5_32.dll*            sshd.exe*
+ chcon.exe*                   ldd.exe*                        msys-psl-5.dll*               ssh-keygen.exe*
+ chgrp.exe*                   ldh.exe*                        msys-readline8.dll*           ssh-keyscan.exe*
+ chmod.exe*                   less.exe*                       msys-roken-18.dll*            ssh-pageant.exe*
+ chown.exe*                   lessecho.exe*                   msys-sasl2-3.dll*             ssp.exe*
+ chroot.exe*                  lesskey.exe*                    msys-serf-1-0.dll*            start*
+ cksum.exe*                   link.exe*                       msys-sl-0.dll*                stat.exe*
+ clear.exe*                   ln.exe*                         msys-smartcols-1.dll*         strace.exe*
+ cmp.exe*                     locale.exe*                     msys-sqlite3-0.dll*           stty.exe*
+ column.exe*                  locate.exe*                     msys-ssh2-1.dll*              sum.exe*
+ comm.exe*                    logname.exe*                    msys-ssl-1.1.dll*             sync.exe*
+ core_perl/                   ls.exe*                         msys-svn_client-1-0.dll*      tabs.exe*
+ cp.exe*                      lsattr.exe*                     msys-svn_delta-1-0.dll*       tac.exe*
+ csplit.exe*                  mac2unix.exe*                   msys-svn_diff-1-0.dll*        tail.exe*
+ cut.exe*                     md5sum.exe*                     msys-svn_fs_fs-1-0.dll*       tar.exe*
+ cygcheck.exe*                minidumper.exe*                 msys-svn_fs_util-1-0.dll*     tee.exe*
+ cygpath.exe*                 mintheme*                       msys-svn_fs_x-1-0.dll*        test.exe*
+ cygwin-console-helper.exe*   mintty.exe*                     msys-svn_fs-1-0.dll*          tic.exe*
+ d2u.exe*                     mkdir.exe*                      msys-svn_ra_local-1-0.dll*    tig.exe*
+ dash.exe*                    mkfifo.exe*                     msys-svn_ra_serf-1-0.dll*     timeout.exe*
+ date.exe*                    mkgroup.exe*                    msys-svn_ra_svn-1-0.dll*      toe.exe*
+ dd.exe*                      mknod.exe*                      msys-svn_ra-1-0.dll*          touch.exe*
+ df.exe*                      mkpasswd.exe*                   msys-svn_repos-1-0.dll*       tput.exe*
+ diff.exe*                    mktemp.exe*                     msys-svn_subr-1-0.dll*        tr.exe*
+ diff3.exe*                   mount.exe*                      msys-svn_swig_perl-1-0.dll*   true.exe*
+ dir.exe*                     mpicalc.exe*                    msys-svn_swig_py-1-0.dll*     truncate.exe*
+ dircolors.exe*               msgattrib.exe*                  msys-svn_swig_ruby-1-0.dll*   trust.exe*
+ dirmngr.exe*                 msgcat.exe*                     msys-svn_wc-1-0.dll*          tset.exe*
+ dirmngr-client.exe*          msgcmp.exe*                     msys-tasn1-6.dll*             tsort.exe*
+ dirname.exe*                 msgcomm.exe*                    msys-ticw6.dll*               tty.exe*
+ docx2txt*                    msgconv.exe*                    msys-unistring-2.dll*         tzset.exe*
+ docx2txt.pl*                 msgen.exe*                      msys-uuid-1.dll*              u2d.exe*
+ dos2unix.exe*                msgexec.exe*                    msys-wind-0.dll*              umount.exe*
+ du.exe*                      msgfilter.exe*                  msys-xml2-2.dll*              uname.exe*
+ dumpsexp.exe*                msgfmt.exe*                     msys-xslt-1.dll*              uncompress*
+ echo.exe*                    msggrep.exe*                    msys-z.dll*                   unexpand.exe*
+ egrep*                       msginit.exe*                    mv.exe*                       uniq.exe*
+ env.exe*                     msgmerge.exe*                   nano.exe*                     unix2dos.exe*
+ envsubst.exe*                msgunfmt.exe*                   nettle-hash.exe*              unix2mac.exe*
+ ex.exe*                      msguniq.exe*                    nettle-lfib-stream.exe*       unlink.exe*
+ expand.exe*                  msys-2.0.dll*                   nettle-pbkdf2.exe*            unzip.exe*
+ expr.exe*                    msys-apr-1-0.dll*               ngettext.exe*                 unzipsfx.exe*
+ factor.exe*                  msys-aprutil-1-0.dll*           nice.exe*                     update-ca-trust*
+ false.exe*                   msys-asn1-8.dll*                nl.exe*                       updatedb*
+ fgrep*                       msys-asprintf-0.dll*            nohup.exe*                    users.exe*
+ fido2-assert.exe*            msys-assuan-0.dll*              notepad*                      vdir.exe*
+ fido2-cred.exe*              msys-atomic-1.dll*              nproc.exe*                    vendor_perl/
+ fido2-token.exe*             msys-blkid-1.dll*               numfmt.exe*                   vi*
+ file.exe*                    msys-bz2-1.dll*                 od.exe*                       view.exe*
+ find.exe*                    msys-cbor-0.dll*                openssl.exe*                  vim.exe*
+ findssl.sh*                  msys-charset-1.dll*             p11-kit.exe*                  vimdiff.exe*
+ fmt.exe*                     msys-com_err-1.dll*             passwd.exe*                   vimtutor*
+ fold.exe*                    msys-crypt-0.dll*               paste.exe*                    watchgnupg.exe*
+ funzip.exe*                  msys-crypto-1.1.dll*            patch.exe*                    wc.exe*
+ gapplication.exe*            msys-curl-4.dll*                pathchk.exe*                  which.exe*
+ gawk.exe*                    msys-edit-0.dll*                perl.exe*                     who.exe*
+ gawk-5.0.0.exe*              msys-expat-1.dll*               perl5.32.0.exe*               whoami.exe*
+ gdbus.exe*                   msys-exslt-0.dll*               pinentry.exe*                 winpty.dll*
+ gencat.exe*                  msys-fdisk-1.dll*               pinentry-w32.exe*             winpty.exe*
+ getconf.exe*                 msys-ffi-7.dll*                 pinky.exe*                    winpty-agent.exe*
+ getemojis*                   msys-fido2-1.dll*               pkcs1-conv.exe*               winpty-debugserver.exe*
+ getfacl.exe*                 msys-formw6.dll*                pldd.exe*                     wordpad*
+ getopt.exe*                  msys-gcc_s-seh-1.dll*           pluginviewer.exe*             xargs.exe*
+ gettext.exe*                 msys-gcrypt-20.dll*             pr.exe*                       xgettext.exe*
+ gettext.sh*                  msys-gettextlib-0-19-8-1.dll*   printenv.exe*                 xxd.exe*
+ gettextize*                  msys-gettextpo-0.dll*           printf.exe*                   yat2m.exe*
+ gio-querymodules.exe*        msys-gettextsrc-0-19-8-1.dll*   ps.exe*                       yes.exe*
+ git-flow*                    msys-gio-2.0-0.dll*             psl.exe*                      zcat*
+ git-flow-bugfix              msys-glib-2.0-0.dll*            psl-make-dafsa*               zcmp*
+ gitflow-common               msys-gmodule-2.0-0.dll*         ptx.exe*                      zdiff*
+ git-flow-config              msys-gmp-10.dll*                pwd.exe*                      zegrep*
+ git-flow-feature             msys-gmpxx-4.dll*               readlink.exe*                 zfgrep*
+ git-flow-hotfix              msys-gnutls-30.dll*             realpath.exe*                 zforce*
+ git-flow-init                msys-gnutlsxx-28.dll*           rebase.exe*                   zgrep*
+ git-flow-log                 msys-gobject-2.0-0.dll*         rebaseall*                    zipgrep*
+ git-flow-release             msys-gomp-1.dll*                recode-sr-latin.exe*          zipinfo.exe*
+ gitflow-shFlags              msys-gpg-error-0.dll*           regtool.exe*                  zless*
+ git-flow-support             msys-gssapi-3.dll*              reset.exe*                    zmore*
+ git-flow-version             msys-gthread-2.0-0.dll*         restore*                      znew*
+ gkill.exe*                   msys-hcrypto-4.dll*             rm.exe*
+ glib-compile-schemas.exe*    msys-hdb-9.dll*                 rmdir.exe*
+
+tigro@LAPTOP-B1C50INO MINGW64 ~
+$ ls -l /bin
+total 94732
+-rwxr-xr-x 1 tigro 197609   68322 juil. 28 09:20 '[.exe'*
+-rwxr-xr-x 1 tigro 197609    3075 juil. 28 09:20  addgnupghome*
+-rwxr-xr-x 1 tigro 197609    2217 juil. 28 09:20  applygnupgdefaults*
+-rwxr-xr-x 1 tigro 197609   33828 juil. 28 09:20  arch.exe*
+-rwxr-xr-x 1 tigro 197609     689 juil. 28 09:20  astextplain*
+-rwxr-xr-x 1 tigro 197609   26618 juil. 28 09:20  autopoint*
+-rwxr-xr-x 1 tigro 197609  627466 juil. 28 09:20  awk.exe*
+-rwxr-xr-x 1 tigro 197609   54400 juil. 28 09:20  b2sum.exe*
+-rwxr-xr-x 1 tigro 197609    7332 juil. 28 09:20  backup*
+-rwxr-xr-x 1 tigro 197609   40283 juil. 28 09:20  base32.exe*
+-rwxr-xr-x 1 tigro 197609   39771 juil. 28 09:20  base64.exe*
+-rwxr-xr-x 1 tigro 197609   33859 juil. 28 09:20  basename.exe*
+-rwxr-xr-x 1 tigro 197609   47963 juil. 28 09:20  basenc.exe*
+-rwxr-xr-x 1 tigro 197609 1963639 juil. 28 09:20  bash.exe*
+-rwxr-xr-x 1 tigro 197609    7006 juil. 28 09:20  bashbug*
+-rwxr-xr-x 1 tigro 197609   92160 juil. 28 09:20  bunzip2.exe*
+-rwxr-xr-x 1 tigro 197609   92160 juil. 28 09:20  bzcat.exe*
+-rwxr-xr-x 1 tigro 197609    2140 juil. 28 09:20  bzcmp*
+-rwxr-xr-x 1 tigro 197609    2140 juil. 28 09:20  bzdiff*
+-rwxr-xr-x 1 tigro 197609    2054 juil. 28 09:20  bzegrep*
+-rwxr-xr-x 1 tigro 197609    2054 juil. 28 09:20  bzfgrep*
+-rwxr-xr-x 1 tigro 197609    2054 juil. 28 09:20  bzgrep*
+-rwxr-xr-x 1 tigro 197609   92160 juil. 28 09:20  bzip2.exe*
+-rwxr-xr-x 1 tigro 197609   13312 juil. 28 09:20  bzip2recover.exe*
+-rwxr-xr-x 1 tigro 197609    1297 juil. 28 09:20  bzless*
+-rwxr-xr-x 1 tigro 197609    1297 juil. 28 09:20  bzmore*
+-rwxr-xr-x 1 tigro 197609    6230 juil. 28 09:20  c_rehash*
+-rwxr-xr-x 1 tigro 197609   76800 juil. 28 09:20  captoinfo.exe*
+-rwxr-xr-x 1 tigro 197609   37695 juil. 28 09:20  cat.exe*
+-rwxr-xr-x 1 tigro 197609  181043 juil. 28 09:20  chattr.exe*
+-rwxr-xr-x 1 tigro 197609   58610 juil. 28 09:20  chcon.exe*
+-rwxr-xr-x 1 tigro 197609   64561 juil. 28 09:20  chgrp.exe*
+-rwxr-xr-x 1 tigro 197609   57943 juil. 28 09:20  chmod.exe*
+-rwxr-xr-x 1 tigro 197609   66161 juil. 28 09:20  chown.exe*
+-rwxr-xr-x 1 tigro 197609   41600 juil. 28 09:20  chroot.exe*
+-rwxr-xr-x 1 tigro 197609   36044 juil. 28 09:20  cksum.exe*
+-rwxr-xr-x 1 tigro 197609   10240 juil. 28 09:20  clear.exe*
+-rwxr-xr-x 1 tigro 197609   44686 juil. 28 09:20  cmp.exe*
+-rwxr-xr-x 1 tigro 197609   44096 juil. 28 09:20  column.exe*
+-rwxr-xr-x 1 tigro 197609   39247 juil. 28 09:20  comm.exe*
+drwxr-xr-x 1 tigro 197609       0 sept. 14 21:36  core_perl/
+-rwxr-xr-x 1 tigro 197609  111647 juil. 28 09:20  cp.exe*
+-rwxr-xr-x 1 tigro 197609  110703 juil. 28 09:20  csplit.exe*
+-rwxr-xr-x 1 tigro 197609   42542 juil. 28 09:20  cut.exe*
+-rwxr-xr-x 1 tigro 197609  841348 juil. 28 09:20  cygcheck.exe*
+-rwxr-xr-x 1 tigro 197609  289298 juil. 28 09:20  cygpath.exe*
+-rwxr-xr-x 1 tigro 197609  537558 juil. 28 09:20  cygwin-console-helper.exe*
+-rwxr-xr-x 1 tigro 197609   50278 juil. 28 09:20  d2u.exe*
+-rwxr-xr-x 1 tigro 197609  107687 juil. 28 09:20  dash.exe*
+-rwxr-xr-x 1 tigro 197609  117617 juil. 28 09:20  date.exe*
+-rwxr-xr-x 1 tigro 197609   88718 juil. 28 09:20  dd.exe*
+-rwxr-xr-x 1 tigro 197609  101381 juil. 28 09:20  df.exe*
+-rwxr-xr-x 1 tigro 197609  205303 juil. 28 09:20  diff.exe*
+-rwxr-xr-x 1 tigro 197609   59809 juil. 28 09:20  diff3.exe*
+-rwxr-xr-x 1 tigro 197609  141831 juil. 28 09:20  dir.exe*
+-rwxr-xr-x 1 tigro 197609   54948 juil. 28 09:20  dircolors.exe*
+-rwxr-xr-x 1 tigro 197609  373399 juil. 28 09:20  dirmngr.exe*
+-rwxr-xr-x 1 tigro 197609  100733 juil. 28 09:20  dirmngr-client.exe*
+-rwxr-xr-x 1 tigro 197609   32782 juil. 28 09:20  dirname.exe*
+-rwxr-xr-x 1 tigro 197609    3363 juil. 28 09:20  docx2txt*
+-rwxr-xr-x 1 tigro 197609   21572 juil. 28 09:20  docx2txt.pl*
+-rwxr-xr-x 1 tigro 197609   50278 juil. 28 09:20  dos2unix.exe*
+-rwxr-xr-x 1 tigro 197609  165404 juil. 28 09:20  du.exe*
+-rwxr-xr-x 1 tigro 197609   16005 juil. 28 09:20  dumpsexp.exe*
+-rwxr-xr-x 1 tigro 197609   34731 juil. 28 09:20  echo.exe*
+-rwxr-xr-x 1 tigro 197609      28 juil. 28 09:20  egrep*
+-rwxr-xr-x 1 tigro 197609   44148 juil. 28 09:20  env.exe*
+-rwxr-xr-x 1 tigro 197609   37712 juil. 28 09:20  envsubst.exe*
+-rwxr-xr-x 1 tigro 197609 2963968 juil. 28 09:20  ex.exe*
+-rwxr-xr-x 1 tigro 197609   36625 juil. 28 09:20  expand.exe*
+-rwxr-xr-x 1 tigro 197609  107062 juil. 28 09:20  expr.exe*
+-rwxr-xr-x 1 tigro 197609   79026 juil. 28 09:20  factor.exe*
+-rwxr-xr-x 1 tigro 197609   31587 juil. 28 09:20  false.exe*
+-rwxr-xr-x 1 tigro 197609      28 juil. 28 09:20  fgrep*
+-rwxr-xr-x 1 tigro 197609   30248 juil. 28 09:20  fido2-assert.exe*
+-rwxr-xr-x 1 tigro 197609   29452 juil. 28 09:20  fido2-cred.exe*
+-rwxr-xr-x 1 tigro 197609   43532 juil. 28 09:20  fido2-token.exe*
+-rwxr-xr-x 1 tigro 197609   23170 juil. 28 09:20  file.exe*
+-rwxr-xr-x 1 tigro 197609  275097 juil. 28 09:20  find.exe*
+-rwxr-xr-x 1 tigro 197609    4797 juil. 28 09:20  findssl.sh*
+-rwxr-xr-x 1 tigro 197609   41794 juil. 28 09:20  fmt.exe*
+-rwxr-xr-x 1 tigro 197609   36668 juil. 28 09:20  fold.exe*
+-rwxr-xr-x 1 tigro 197609   33629 juil. 28 09:20  funzip.exe*
+-rwxr-xr-x 1 tigro 197609   15360 juil. 28 09:20  gapplication.exe*
+-rwxr-xr-x 1 tigro 197609  627466 juil. 28 09:20  gawk.exe*
+-rwxr-xr-x 1 tigro 197609  627466 juil. 28 09:20  gawk-5.0.0.exe*
+-rwxr-xr-x 1 tigro 197609   36352 juil. 28 09:20  gdbus.exe*
+-rwxr-xr-x 1 tigro 197609  195958 juil. 28 09:20  gencat.exe*
+-rwxr-xr-x 1 tigro 197609  187159 juil. 28 09:20  getconf.exe*
+-rwxr-xr-x 1 tigro 197609    4618 juil. 28 09:20  getemojis*
+-rwxr-xr-x 1 tigro 197609  178921 juil. 28 09:20  getfacl.exe*
+-rwxr-xr-x 1 tigro 197609   17624 juil. 28 09:20  getopt.exe*
+-rwxr-xr-x 1 tigro 197609   37695 juil. 28 09:20  gettext.exe*
+-rwxr-xr-x 1 tigro 197609    4629 juil. 28 09:20  gettext.sh*
+-rwxr-xr-x 1 tigro 197609   43753 juil. 28 09:20  gettextize*
+-rwxr-xr-x 1 tigro 197609   10752 juil. 28 09:20  gio-querymodules.exe*
+-rwxr-xr-x 1 tigro 197609    6937 juil. 28 09:20  git-flow*
+-rw-r--r-- 1 tigro 197609   24605 juil. 28 09:20  git-flow-bugfix
+-rw-r--r-- 1 tigro 197609   19838 juil. 28 09:20  gitflow-common
+-rw-r--r-- 1 tigro 197609    8619 juil. 28 09:20  git-flow-config
+-rw-r--r-- 1 tigro 197609   24690 juil. 28 09:20  git-flow-feature
+-rw-r--r-- 1 tigro 197609   24270 juil. 28 09:20  git-flow-hotfix
+-rw-r--r-- 1 tigro 197609   15496 juil. 28 09:20  git-flow-init
+-rw-r--r-- 1 tigro 197609    2797 juil. 28 09:20  git-flow-log
+-rw-r--r-- 1 tigro 197609   37951 juil. 28 09:20  git-flow-release
+-rw-r--r-- 1 tigro 197609   35637 juil. 28 09:20  gitflow-shFlags
+-rw-r--r-- 1 tigro 197609    6952 juil. 28 09:20  git-flow-support
+-rw-r--r-- 1 tigro 197609    2168 juil. 28 09:20  git-flow-version
+-rwxr-xr-x 1 tigro 197609   36542 juil. 28 09:20  gkill.exe*
+-rwxr-xr-x 1 tigro 197609   39424 juil. 28 09:20  glib-compile-schemas.exe*
+-rwxr-xr-x 1 tigro 197609   10752 juil. 28 09:20  gobject-query.exe*
+-rwxr-xr-x 1 tigro 197609  983561 juil. 28 09:20  gpg.exe*
+-rwxr-xr-x 1 tigro 197609  372196 juil. 28 09:20  gpg-agent.exe*
+-rwxr-xr-x 1 tigro 197609  145475 juil. 28 09:20  gpgconf.exe*
+-rwxr-xr-x 1 tigro 197609  142660 juil. 28 09:20  gpg-connect-agent.exe*
+-rwxr-xr-x 1 tigro 197609   30208 juil. 28 09:20  gpg-error.exe*
+-rwxr-xr-x 1 tigro 197609   25996 juil. 28 09:20  gpgparsemail.exe*
+-rwxr-xr-x 1 tigro 197609  206221 juil. 28 09:20  gpgscm.exe*
+-rwxr-xr-x 1 tigro 197609  468476 juil. 28 09:20  gpgsm.exe*
+-rwxr-xr-x 1 tigro 197609  133430 juil. 28 09:20  gpgtar.exe*
+-rwxr-xr-x 1 tigro 197609  413178 juil. 28 09:20  gpgv.exe*
+-rwxr-xr-x 1 tigro 197609  182826 juil. 28 09:20  gpg-wks-server.exe*
+-rwxr-xr-x 1 tigro 197609  209171 juil. 28 09:20  grep.exe*
+-rwxr-xr-x 1 tigro 197609   34542 juil. 28 09:20  groups.exe*
+-rwxr-xr-x 1 tigro 197609   20992 juil. 28 09:20  gsettings.exe*
+-rwxr-xr-x 1 tigro 197609    2346 juil. 28 09:20  gunzip*
+-rwxr-xr-x 1 tigro 197609    6376 juil. 28 09:20  gzexe*
+-rwxr-xr-x 1 tigro 197609  102449 juil. 28 09:20  gzip.exe*
+-rwxr-xr-x 1 tigro 197609   43365 juil. 28 09:20  head.exe*
+-rwxr-xr-x 1 tigro 197609   14986 juil. 28 09:20  hmac256.exe*
+-rwxr-xr-x 1 tigro 197609   32291 juil. 28 09:20  hostid.exe*
+-rwxr-xr-x 1 tigro 197609   32870 juil. 28 09:20  hostname.exe*
+-rwxr-xr-x 1 tigro 197609   29501 juil. 28 09:20  iconv.exe*
+-rwxr-xr-x 1 tigro 197609   41911 juil. 28 09:20  id.exe*
+-rwxr-xr-x 1 tigro 197609   53760 juil. 28 09:20  infocmp.exe*
+-rwxr-xr-x 1 tigro 197609   76800 juil. 28 09:20  infotocap.exe*
+-rwxr-xr-x 1 tigro 197609  143394 juil. 28 09:20  install.exe*
+-rwxr-xr-x 1 tigro 197609   50232 juil. 28 09:20  join.exe*
+-rwxr-xr-x 1 tigro 197609  153237 juil. 28 09:20  kbxutil.exe*
+-rwxr-xr-x 1 tigro 197609  231209 juil. 28 09:20  kill.exe*
+-rwxr-xr-x 1 tigro 197609  234502 juil. 28 09:20  ldd.exe*
+-rwxr-xr-x 1 tigro 197609   33117 juil. 28 09:20  ldh.exe*
+-rwxr-xr-x 1 tigro 197609  154799 juil. 28 09:20  less.exe*
+-rwxr-xr-x 1 tigro 197609   11755 juil. 28 09:20  lessecho.exe*
+-rwxr-xr-x 1 tigro 197609   16967 juil. 28 09:20  lesskey.exe*
+-rwxr-xr-x 1 tigro 197609   32798 juil. 28 09:20  link.exe*
+-rwxr-xr-x 1 tigro 197609   74583 juil. 28 09:20  ln.exe*
+-rwxr-xr-x 1 tigro 197609  242486 juil. 28 09:20  locale.exe*
+-rwxr-xr-x 1 tigro 197609  144119 juil. 28 09:20  locate.exe*
+-rwxr-xr-x 1 tigro 197609   32319 juil. 28 09:20  logname.exe*
+-rwxr-xr-x 1 tigro 197609  141831 juil. 28 09:20  ls.exe*
+-rwxr-xr-x 1 tigro 197609  180436 juil. 28 09:20  lsattr.exe*
+-rwxr-xr-x 1 tigro 197609   50278 juil. 28 09:20  mac2unix.exe*
+-rwxr-xr-x 1 tigro 197609   46558 juil. 28 09:20  md5sum.exe*
+-rwxr-xr-x 1 tigro 197609  200952 juil. 28 09:20  minidumper.exe*
+-rwxr-xr-x 1 tigro 197609   11564 juil. 28 09:20  mintheme*
+-rwxr-xr-x 1 tigro 197609  842904 juil. 28 09:20  mintty.exe*
+-rwxr-xr-x 1 tigro 197609   69421 juil. 28 09:20  mkdir.exe*
+-rwxr-xr-x 1 tigro 197609   35028 juil. 28 09:20  mkfifo.exe*
+-rwxr-xr-x 1 tigro 197609  233835 juil. 28 09:20  mkgroup.exe*
+-rwxr-xr-x 1 tigro 197609   38202 juil. 28 09:20  mknod.exe*
+-rwxr-xr-x 1 tigro 197609  233172 juil. 28 09:20  mkpasswd.exe*
+-rwxr-xr-x 1 tigro 197609   43234 juil. 28 09:20  mktemp.exe*
+-rwxr-xr-x 1 tigro 197609  260497 juil. 28 09:20  mount.exe*
+-rwxr-xr-x 1 tigro 197609   17604 juil. 28 09:20  mpicalc.exe*
+-rwxr-xr-x 1 tigro 197609   25492 juil. 28 09:20  msgattrib.exe*
+-rwxr-xr-x 1 tigro 197609   24303 juil. 28 09:20  msgcat.exe*
+-rwxr-xr-x 1 tigro 197609   24719 juil. 28 09:20  msgcmp.exe*
+-rwxr-xr-x 1 tigro 197609   24545 juil. 28 09:20  msgcomm.exe*
+-rwxr-xr-x 1 tigro 197609   21755 juil. 28 09:20  msgconv.exe*
+-rwxr-xr-x 1 tigro 197609   21774 juil. 28 09:20  msgen.exe*
+-rwxr-xr-x 1 tigro 197609   18606 juil. 28 09:20  msgexec.exe*
+-rwxr-xr-x 1 tigro 197609   29523 juil. 28 09:20  msgfilter.exe*
+-rwxr-xr-x 1 tigro 197609   78964 juil. 28 09:20  msgfmt.exe*
+-rwxr-xr-x 1 tigro 197609   99949 juil. 28 09:20  msggrep.exe*
+-rwxr-xr-x 1 tigro 197609   45730 juil. 28 09:20  msginit.exe*
+-rwxr-xr-x 1 tigro 197609   53112 juil. 28 09:20  msgmerge.exe*
+-rwxr-xr-x 1 tigro 197609   31554 juil. 28 09:20  msgunfmt.exe*
+-rwxr-xr-x 1 tigro 197609   23252 juil. 28 09:20  msguniq.exe*
+-rwxr-xr-x 1 tigro 197609 3562621 juil. 28 09:20  msys-2.0.dll*
+-rwxr-xr-x 1 tigro 197609  177507 juil. 28 09:20  msys-apr-1-0.dll*
+-rwxr-xr-x 1 tigro 197609  131317 juil. 28 09:20  msys-aprutil-1-0.dll*
+-rwxr-xr-x 1 tigro 197609  520749 juil. 28 09:20  msys-asn1-8.dll*
+-rwxr-xr-x 1 tigro 197609   10329 juil. 28 09:20  msys-asprintf-0.dll*
+-rwxr-xr-x 1 tigro 197609   68501 juil. 28 09:20  msys-assuan-0.dll*
+-rwxr-xr-x 1 tigro 197609   28160 juil. 28 09:20  msys-atomic-1.dll*
+-rwxr-xr-x 1 tigro 197609  244804 juil. 28 09:20  msys-blkid-1.dll*
+-rwxr-xr-x 1 tigro 197609   67584 juil. 28 09:20  msys-bz2-1.dll*
+-rwxr-xr-x 1 tigro 197609   53131 juil. 28 09:20  msys-cbor-0.dll*
+-rwxr-xr-x 1 tigro 197609   10096 juil. 28 09:20  msys-charset-1.dll*
+-rwxr-xr-x 1 tigro 197609   10102 juil. 28 09:20  msys-com_err-1.dll*
+-rwxr-xr-x 1 tigro 197609   38777 juil. 28 09:20  msys-crypt-0.dll*
+-rwxr-xr-x 1 tigro 197609 2457088 juil. 28 09:20  msys-crypto-1.1.dll*
+-rwxr-xr-x 1 tigro 197609  591598 juil. 28 09:20  msys-curl-4.dll*
+-rwxr-xr-x 1 tigro 197609  165777 juil. 28 09:20  msys-edit-0.dll*
+-rwxr-xr-x 1 tigro 197609  150461 juil. 28 09:20  msys-expat-1.dll*
+-rwxr-xr-x 1 tigro 197609   75776 juil. 28 09:20  msys-exslt-0.dll*
+-rwxr-xr-x 1 tigro 197609  346388 juil. 28 09:20  msys-fdisk-1.dll*
+-rwxr-xr-x 1 tigro 197609   26112 juil. 28 09:20  msys-ffi-7.dll*
+-rwxr-xr-x 1 tigro 197609  140563 juil. 28 09:20  msys-fido2-1.dll*
+-rwxr-xr-x 1 tigro 197609   59420 juil. 28 09:20  msys-formw6.dll*
+-rwxr-xr-x 1 tigro 197609   73216 juil. 28 09:20  msys-gcc_s-seh-1.dll*
+-rwxr-xr-x 1 tigro 197609 1123400 juil. 28 09:20  msys-gcrypt-20.dll*
+-rwxr-xr-x 1 tigro 197609 1462170 juil. 28 09:20  msys-gettextlib-0-19-8-1.dll*
+-rwxr-xr-x 1 tigro 197609  329103 juil. 28 09:20  msys-gettextpo-0.dll*
+-rwxr-xr-x 1 tigro 197609  284519 juil. 28 09:20  msys-gettextsrc-0-19-8-1.dll*
+-rwxr-xr-x 1 tigro 197609 1430528 juil. 28 09:20  msys-gio-2.0-0.dll*
+-rwxr-xr-x 1 tigro 197609 1012736 juil. 28 09:20  msys-glib-2.0-0.dll*
+-rwxr-xr-x 1 tigro 197609   13824 juil. 28 09:20  msys-gmodule-2.0-0.dll*
+-rwxr-xr-x 1 tigro 197609  570410 juil. 28 09:20  msys-gmp-10.dll*
+-rwxr-xr-x 1 tigro 197609   23135 juil. 28 09:20  msys-gmpxx-4.dll*
+-rwxr-xr-x 1 tigro 197609 1498874 juil. 28 09:20  msys-gnutls-30.dll*
+-rwxr-xr-x 1 tigro 197609   48375 juil. 28 09:20  msys-gnutlsxx-28.dll*
+-rwxr-xr-x 1 tigro 197609  285696 juil. 28 09:20  msys-gobject-2.0-0.dll*
+-rwxr-xr-x 1 tigro 197609  178176 juil. 28 09:20  msys-gomp-1.dll*
+-rwxr-xr-x 1 tigro 197609  125440 juil. 28 09:20  msys-gpg-error-0.dll*
+-rwxr-xr-x 1 tigro 197609  224187 juil. 28 09:20  msys-gssapi-3.dll*
+-rwxr-xr-x 1 tigro 197609    8192 juil. 28 09:20  msys-gthread-2.0-0.dll*
+-rwxr-xr-x 1 tigro 197609  196920 juil. 28 09:20  msys-hcrypto-4.dll*
+-rwxr-xr-x 1 tigro 197609  120269 juil. 28 09:20  msys-hdb-9.dll*
+-rwxr-xr-x 1 tigro 197609   50402 juil. 28 09:20  msys-heimbase-1.dll*
+-rwxr-xr-x 1 tigro 197609   32241 juil. 28 09:20  msys-heimntlm-0.dll*
+-rwxr-xr-x 1 tigro 197609   35178 juil. 28 09:20  msys-history8.dll*
+-rwxr-xr-x 1 tigro 197609  258560 juil. 28 09:20  msys-hogweed-6.dll*
+-rwxr-xr-x 1 tigro 197609  277150 juil. 28 09:20  msys-hx509-5.dll*
+-rwxr-xr-x 1 tigro 197609  923147 juil. 28 09:20  msys-iconv-2.dll*
+-rwxr-xr-x 1 tigro 197609  125377 juil. 28 09:20  msys-idn2-0.dll*
+-rwxr-xr-x 1 tigro 197609   43904 juil. 28 09:20  msys-intl-8.dll*
+-rwxr-xr-x 1 tigro 197609   40023 juil. 28 09:20  msys-kadm5clnt-7.dll*
+-rwxr-xr-x 1 tigro 197609   74053 juil. 28 09:20  msys-kadm5srv-8.dll*
+-rwxr-xr-x 1 tigro 197609   28576 juil. 28 09:20  msys-kafs-0.dll*
+-rwxr-xr-x 1 tigro 197609  154572 juil. 28 09:20  msys-kdc-2.dll*
+-rwxr-xr-x 1 tigro 197609  474135 juil. 28 09:20  msys-krb5-26.dll*
+-rwxr-xr-x 1 tigro 197609  243148 juil. 28 09:20  msys-ksba-8.dll*
+-rwxr-xr-x 1 tigro 197609  192751 juil. 28 09:20  msys-lz4-1.dll*
+-rwxr-xr-x 1 tigro 197609  141824 juil. 28 09:20  msys-lzma-5.dll*
+-rwxr-xr-x 1 tigro 197609  144343 juil. 28 09:20  msys-magic-1.dll*
+-rwxr-xr-x 1 tigro 197609   30101 juil. 28 09:20  msys-menuw6.dll*
+-rwxr-xr-x 1 tigro 197609   43627 juil. 28 09:20  msys-metalink-3.dll*
+-rwxr-xr-x 1 tigro 197609 2717824 juil. 28 09:20  msys-mpfr-6.dll*
+-rwxr-xr-x 1 tigro 197609   53832 juil. 28 09:20  msys-ncurses++w6.dll*
+-rwxr-xr-x 1 tigro 197609  310530 juil. 28 09:20  msys-ncursesw6.dll*
+-rwxr-xr-x 1 tigro 197609  228864 juil. 28 09:20  msys-nettle-8.dll*
+-rwxr-xr-x 1 tigro 197609  148883 juil. 28 09:20  msys-nghttp2-14.dll*
+-rwxr-xr-x 1 tigro 197609   16068 juil. 28 09:20  msys-npth-0.dll*
+-rwxr-xr-x 1 tigro 197609  968704 juil. 28 09:20  msys-p11-kit-0.dll*
+-rwxr-xr-x 1 tigro 197609   14327 juil. 28 09:20  msys-panelw6.dll*
+-rwxr-xr-x 1 tigro 197609  283648 juil. 28 09:20  msys-pcre-1.dll*
+-rwxr-xr-x 1 tigro 197609  370176 juil. 28 09:20  msys-pcre2-8-0.dll*
+-rwxr-xr-x 1 tigro 197609 3395427 juil. 28 09:20  msys-perl5_32.dll*
+-rwxr-xr-x 1 tigro 197609   66805 juil. 28 09:20  msys-psl-5.dll*
+-rwxr-xr-x 1 tigro 197609  236264 juil. 28 09:20  msys-readline8.dll*
+-rwxr-xr-x 1 tigro 197609   66082 juil. 28 09:20  msys-roken-18.dll*
+-rwxr-xr-x 1 tigro 197609   98888 juil. 28 09:20  msys-sasl2-3.dll*
+-rwxr-xr-x 1 tigro 197609   93585 juil. 28 09:20  msys-serf-1-0.dll*
+-rwxr-xr-x 1 tigro 197609   14346 juil. 28 09:20  msys-sl-0.dll*
+-rwxr-xr-x 1 tigro 197609  163699 juil. 28 09:20  msys-smartcols-1.dll*
+-rwxr-xr-x 1 tigro 197609 1174627 juil. 28 09:20  msys-sqlite3-0.dll*
+-rwxr-xr-x 1 tigro 197609  222832 juil. 28 09:20  msys-ssh2-1.dll*
+-rwxr-xr-x 1 tigro 197609  504320 juil. 28 09:20  msys-ssl-1.1.dll*
+-rwxr-xr-x 1 tigro 197609  581009 juil. 28 09:20  msys-svn_client-1-0.dll*
+-rwxr-xr-x 1 tigro 197609  106827 juil. 28 09:20  msys-svn_delta-1-0.dll*
+-rwxr-xr-x 1 tigro 197609   93187 juil. 28 09:20  msys-svn_diff-1-0.dll*
+-rwxr-xr-x 1 tigro 197609  304076 juil. 28 09:20  msys-svn_fs_fs-1-0.dll*
+-rwxr-xr-x 1 tigro 197609   13077 juil. 28 09:20  msys-svn_fs_util-1-0.dll*
+-rwxr-xr-x 1 tigro 197609  296199 juil. 28 09:20  msys-svn_fs_x-1-0.dll*
+-rwxr-xr-x 1 tigro 197609   43349 juil. 28 09:20  msys-svn_fs-1-0.dll*
+-rwxr-xr-x 1 tigro 197609   38900 juil. 28 09:20  msys-svn_ra_local-1-0.dll*
+-rwxr-xr-x 1 tigro 197609  191239 juil. 28 09:20  msys-svn_ra_serf-1-0.dll*
+-rwxr-xr-x 1 tigro 197609  119433 juil. 28 09:20  msys-svn_ra_svn-1-0.dll*
+-rwxr-xr-x 1 tigro 197609   50965 juil. 28 09:20  msys-svn_ra-1-0.dll*
+-rwxr-xr-x 1 tigro 197609  242715 juil. 28 09:20  msys-svn_repos-1-0.dll*
+-rwxr-xr-x 1 tigro 197609  761296 juil. 28 09:20  msys-svn_subr-1-0.dll*
+-rwxr-xr-x 1 tigro 197609   43076 juil. 28 09:20  msys-svn_swig_perl-1-0.dll*
+-rwxr-xr-x 1 tigro 197609   67238 juil. 28 09:20  msys-svn_swig_py-1-0.dll*
+-rwxr-xr-x 1 tigro 197609   72455 juil. 28 09:20  msys-svn_swig_ruby-1-0.dll*
+-rwxr-xr-x 1 tigro 197609  712872 juil. 28 09:20  msys-svn_wc-1-0.dll*
+-rwxr-xr-x 1 tigro 197609   67549 juil. 28 09:20  msys-tasn1-6.dll*
+-rwxr-xr-x 1 tigro 197609   59943 juil. 28 09:20  msys-ticw6.dll*
+-rwxr-xr-x 1 tigro 197609 1644899 juil. 28 09:20  msys-unistring-2.dll*
+-rwxr-xr-x 1 tigro 197609   27650 juil. 28 09:20  msys-uuid-1.dll*
+-rwxr-xr-x 1 tigro 197609  164463 juil. 28 09:20  msys-wind-0.dll*
+-rwxr-xr-x 1 tigro 197609 1252025 juil. 28 09:20  msys-xml2-2.dll*
+-rwxr-xr-x 1 tigro 197609  219136 juil. 28 09:20  msys-xslt-1.dll*
+-rwxr-xr-x 1 tigro 197609   85068 juil. 28 09:20  msys-z.dll*
+-rwxr-xr-x 1 tigro 197609  117888 juil. 28 09:20  mv.exe*
+-rwxr-xr-x 1 tigro 197609  316928 juil. 28 09:20  nano.exe*
+-rwxr-xr-x 1 tigro 197609   16384 juil. 28 09:20  nettle-hash.exe*
+-rwxr-xr-x 1 tigro 197609    8704 juil. 28 09:20  nettle-lfib-stream.exe*
+-rwxr-xr-x 1 tigro 197609   15872 juil. 28 09:20  nettle-pbkdf2.exe*
+-rwxr-xr-x 1 tigro 197609   37728 juil. 28 09:20  ngettext.exe*
+-rwxr-xr-x 1 tigro 197609   36013 juil. 28 09:20  nice.exe*
+-rwxr-xr-x 1 tigro 197609  101500 juil. 28 09:20  nl.exe*
+-rwxr-xr-x 1 tigro 197609   36148 juil. 28 09:20  nohup.exe*
+-rwxr-xr-x 1 tigro 197609     635 juil. 28 09:20  notepad*
+-rwxr-xr-x 1 tigro 197609   35465 juil. 28 09:20  nproc.exe*
+-rwxr-xr-x 1 tigro 197609   60472 juil. 28 09:20  numfmt.exe*
+-rwxr-xr-x 1 tigro 197609   83156 juil. 28 09:20  od.exe*
+-rwxr-xr-x 1 tigro 197609  601088 juil. 28 09:20  openssl.exe*
+-rwxr-xr-x 1 tigro 197609   26624 juil. 28 09:20  p11-kit.exe*
+-rwxr-xr-x 1 tigro 197609  230898 juil. 28 09:20  passwd.exe*
+-rwxr-xr-x 1 tigro 197609   36564 juil. 28 09:20  paste.exe*
+-rwxr-xr-x 1 tigro 197609  174011 juil. 28 09:20  patch.exe*
+-rwxr-xr-x 1 tigro 197609   33826 juil. 28 09:20  pathchk.exe*
+-rwxr-xr-x 1 tigro 197609   14391 juil. 28 09:20  perl.exe*
+-rwxr-xr-x 1 tigro 197609   14391 juil. 28 09:20  perl5.32.0.exe*
+-rwxr-xr-x 1 tigro 197609   74819 juil. 28 09:20  pinentry.exe*
+-rwxr-xr-x 1 tigro 197609   74819 juil. 28 09:20  pinentry-w32.exe*
+-rwxr-xr-x 1 tigro 197609   39042 juil. 28 09:20  pinky.exe*
+-rwxr-xr-x 1 tigro 197609   19968 juil. 28 09:20  pkcs1-conv.exe*
+-rwxr-xr-x 1 tigro 197609  177559 juil. 28 09:20  pldd.exe*
+-rwxr-xr-x 1 tigro 197609   17213 juil. 28 09:20  pluginviewer.exe*
+-rwxr-xr-x 1 tigro 197609   74168 juil. 28 09:20  pr.exe*
+-rwxr-xr-x 1 tigro 197609   32259 juil. 28 09:20  printenv.exe*
+-rwxr-xr-x 1 tigro 197609   68451 juil. 28 09:20  printf.exe*
+-rwxr-xr-x 1 tigro 197609  214675 juil. 28 09:20  ps.exe*
+-rwxr-xr-x 1 tigro 197609   17056 juil. 28 09:20  psl.exe*
+-rwxr-xr-x 1 tigro 197609   22781 juil. 28 09:20  psl-make-dafsa*
+-rwxr-xr-x 1 tigro 197609  131815 juil. 28 09:20  ptx.exe*
+-rwxr-xr-x 1 tigro 197609   35124 juil. 28 09:20  pwd.exe*
+-rwxr-xr-x 1 tigro 197609   46443 juil. 28 09:20  readlink.exe*
+-rwxr-xr-x 1 tigro 197609   47528 juil. 28 09:20  realpath.exe*
+-rwxr-xr-x 1 tigro 197609  829765 juil. 28 09:20  rebase.exe*
+-rwxr-xr-x 1 tigro 197609    7150 juil. 28 09:20  rebaseall*
+-rwxr-xr-x 1 tigro 197609   17086 juil. 28 09:20  recode-sr-latin.exe*
+-rwxr-xr-x 1 tigro 197609  240474 juil. 28 09:20  regtool.exe*
+-rwxr-xr-x 1 tigro 197609   20992 juil. 28 09:20  reset.exe*
+-rwxr-xr-x 1 tigro 197609    5997 juil. 28 09:20  restore*
+-rwxr-xr-x 1 tigro 197609   62343 juil. 28 09:20  rm.exe*
+-rwxr-xr-x 1 tigro 197609   59687 juil. 28 09:20  rmdir.exe*
+-rwxr-xr-x 1 tigro 197609  316928 juil. 28 09:20  rnano.exe*
+-rwxr-xr-x 1 tigro 197609   32769 juil. 28 09:20  runcon.exe*
+-rwxr-xr-x 1 tigro 197609 2963968 juil. 28 09:20  rview.exe*
+-rwxr-xr-x 1 tigro 197609 2963968 juil. 28 09:20  rvim.exe*
+-rwxr-xr-x 1 tigro 197609   18089 juil. 28 09:20  sasldblistusers2.exe*
+-rwxr-xr-x 1 tigro 197609   15288 juil. 28 09:20  saslpasswd2.exe*
+-rwxr-xr-x 1 tigro 197609   88064 juil. 28 09:20  scp.exe*
+-rwxr-xr-x 1 tigro 197609   50395 juil. 28 09:20  sdiff.exe*
+-rwxr-xr-x 1 tigro 197609  169392 juil. 28 09:20  sed.exe*
+-rwxr-xr-x 1 tigro 197609   66472 juil. 28 09:20  seq.exe*
+-rwxr-xr-x 1 tigro 197609  204409 juil. 28 09:20  setfacl.exe*
+-rwxr-xr-x 1 tigro 197609  166078 juil. 28 09:20  setmetamode.exe*
+-rwxr-xr-x 1 tigro 197609   26624 juil. 28 09:20  sexp-conv.exe*
+-rwxr-xr-x 1 tigro 197609  138752 juil. 28 09:20  sftp.exe*
+-rwxr-xr-x 1 tigro 197609 1963639 juil. 28 09:20  sh.exe*
+-rwxr-xr-x 1 tigro 197609   49118 juil. 28 09:20  sha1sum.exe*
+-rwxr-xr-x 1 tigro 197609   55774 juil. 28 09:20  sha224sum.exe*
+-rwxr-xr-x 1 tigro 197609   55774 juil. 28 09:20  sha256sum.exe*
+-rwxr-xr-x 1 tigro 197609   60894 juil. 28 09:20  sha384sum.exe*
+-rwxr-xr-x 1 tigro 197609   60894 juil. 28 09:20  sha512sum.exe*
+-rwxr-xr-x 1 tigro 197609   57007 juil. 28 09:20  shred.exe*
+-rwxr-xr-x 1 tigro 197609   53173 juil. 28 09:20  shuf.exe*
+-rwxr-xr-x 1 tigro 197609   34467 juil. 28 09:20  sleep.exe*
+-rwxr-xr-x 1 tigro 197609  104813 juil. 28 09:20  sort.exe*
+-rwxr-xr-x 1 tigro 197609   54246 juil. 28 09:20  split.exe*
+-rwxr-xr-x 1 tigro 197609  695808 juil. 28 09:20  ssh.exe*
+-rwxr-xr-x 1 tigro 197609  328192 juil. 28 09:20  ssh-add.exe*
+-rwxr-xr-x 1 tigro 197609  305152 juil. 28 09:20  ssh-agent.exe*
+-rwxr-xr-x 1 tigro 197609   10658 juil. 28 09:20  ssh-copy-id*
+-rwxr-xr-x 1 tigro 197609  739328 juil. 28 09:20  sshd.exe*
+-rwxr-xr-x 1 tigro 197609  423936 juil. 28 09:20  ssh-keygen.exe*
+-rwxr-xr-x 1 tigro 197609  404992 juil. 28 09:20  ssh-keyscan.exe*
+-rwxr-xr-x 1 tigro 197609   21618 juil. 28 09:20  ssh-pageant.exe*
+-rwxr-xr-x 1 tigro 197609  224417 juil. 28 09:20  ssp.exe*
+-rwxr-xr-x 1 tigro 197609     246 juil. 28 09:20  start*
+-rwxr-xr-x 1 tigro 197609   94171 juil. 28 09:20  stat.exe*
+-rwxr-xr-x 1 tigro 197609  762402 juil. 28 09:20  strace.exe*
+-rwxr-xr-x 1 tigro 197609   88742 juil. 28 09:20  stty.exe*
+-rwxr-xr-x 1 tigro 197609   41945 juil. 28 09:20  sum.exe*
+-rwxr-xr-x 1 tigro 197609   33948 juil. 28 09:20  sync.exe*
+-rwxr-xr-x 1 tigro 197609   14336 juil. 28 09:20  tabs.exe*
+-rwxr-xr-x 1 tigro 197609  105750 juil. 28 09:20  tac.exe*
+-rwxr-xr-x 1 tigro 197609   55115 juil. 28 09:20  tail.exe*
+-rwxr-xr-x 1 tigro 197609  470130 juil. 28 09:20  tar.exe*
+-rwxr-xr-x 1 tigro 197609   38316 juil. 28 09:20  tee.exe*
+-rwxr-xr-x 1 tigro 197609   65211 juil. 28 09:20  test.exe*
+-rwxr-xr-x 1 tigro 197609   76800 juil. 28 09:20  tic.exe*
+-rwxr-xr-x 1 tigro 197609  601088 juil. 28 09:20  tig.exe*
+-rwxr-xr-x 1 tigro 197609   40696 juil. 28 09:20  timeout.exe*
+-rwxr-xr-x 1 tigro 197609   14848 juil. 28 09:20  toe.exe*
+-rwxr-xr-x 1 tigro 197609  104903 juil. 28 09:20  touch.exe*
+-rwxr-xr-x 1 tigro 197609   18944 juil. 28 09:20  tput.exe*
+-rwxr-xr-x 1 tigro 197609   47924 juil. 28 09:20  tr.exe*
+-rwxr-xr-x 1 tigro 197609   31587 juil. 28 09:20  true.exe*
+-rwxr-xr-x 1 tigro 197609   38655 juil. 28 09:20  truncate.exe*
+-rwxr-xr-x 1 tigro 197609  165888 juil. 28 09:20  trust.exe*
+-rwxr-xr-x 1 tigro 197609   20992 juil. 28 09:20  tset.exe*
+-rwxr-xr-x 1 tigro 197609   36647 juil. 28 09:20  tsort.exe*
+-rwxr-xr-x 1 tigro 197609   32288 juil. 28 09:20  tty.exe*
+-rwxr-xr-x 1 tigro 197609  230849 juil. 28 09:20  tzset.exe*
+-rwxr-xr-x 1 tigro 197609   50278 juil. 28 09:20  u2d.exe*
+-rwxr-xr-x 1 tigro 197609  171069 juil. 28 09:20  umount.exe*
+-rwxr-xr-x 1 tigro 197609   33828 juil. 28 09:20  uname.exe*
+-rwxr-xr-x 1 tigro 197609    2346 juil. 28 09:20  uncompress*
+-rwxr-xr-x 1 tigro 197609   37689 juil. 28 09:20  unexpand.exe*
+-rwxr-xr-x 1 tigro 197609   43483 juil. 28 09:20  uniq.exe*
+-rwxr-xr-x 1 tigro 197609   50278 juil. 28 09:20  unix2dos.exe*
+-rwxr-xr-x 1 tigro 197609   50278 juil. 28 09:20  unix2mac.exe*
+-rwxr-xr-x 1 tigro 197609   32288 juil. 28 09:20  unlink.exe*
+-rwxr-xr-x 1 tigro 197609  173708 juil. 28 09:20  unzip.exe*
+-rwxr-xr-x 1 tigro 197609   83158 juil. 28 09:20  unzipsfx.exe*
+-rwxr-xr-x 1 tigro 197609    1054 juil. 28 09:20  update-ca-trust*
+-rwxr-xr-x 1 tigro 197609    9079 juil. 28 09:20  updatedb*
+-rwxr-xr-x 1 tigro 197609   34054 juil. 28 09:20  users.exe*
+-rwxr-xr-x 1 tigro 197609  141831 juil. 28 09:20  vdir.exe*
+drwxr-xr-x 1 tigro 197609       0 sept. 14 21:36  vendor_perl/
+-rwxr-xr-x 1 tigro 197609      25 juil. 28 09:20  vi*
+-rwxr-xr-x 1 tigro 197609 2963968 juil. 28 09:20  view.exe*
+-rwxr-xr-x 1 tigro 197609 2963968 juil. 28 09:20  vim.exe*
+-rwxr-xr-x 1 tigro 197609 2963968 juil. 28 09:20  vimdiff.exe*
+-rwxr-xr-x 1 tigro 197609    2121 juil. 28 09:20  vimtutor*
+-rwxr-xr-x 1 tigro 197609   15448 juil. 28 09:20  watchgnupg.exe*
+-rwxr-xr-x 1 tigro 197609   44806 juil. 28 09:20  wc.exe*
+-rwxr-xr-x 1 tigro 197609   29553 juil. 28 09:20  which.exe*
+-rwxr-xr-x 1 tigro 197609   66707 juil. 28 09:20  who.exe*
+-rwxr-xr-x 1 tigro 197609   32351 juil. 28 09:20  whoami.exe*
+-rwxr-xr-x 1 tigro 197609  830976 juil. 28 09:20  winpty.dll*
+-rwxr-xr-x 1 tigro 197609  749056 juil. 28 09:20  winpty.exe*
+-rwxr-xr-x 1 tigro 197609  901632 juil. 28 09:20  winpty-agent.exe*
+-rwxr-xr-x 1 tigro 197609  791040 juil. 28 09:20  winpty-debugserver.exe*
+-rwxr-xr-x 1 tigro 197609     270 juil. 28 09:20  wordpad*
+-rwxr-xr-x 1 tigro 197609   67121 juil. 28 09:20  xargs.exe*
+-rwxr-xr-x 1 tigro 197609  260525 juil. 28 09:20  xgettext.exe*
+-rwxr-xr-x 1 tigro 197609   17408 juil. 28 09:20  xxd.exe*
+-rwxr-xr-x 1 tigro 197609   25088 juil. 28 09:20  yat2m.exe*
+-rwxr-xr-x 1 tigro 197609   32799 juil. 28 09:20  yes.exe*
+-rwxr-xr-x 1 tigro 197609    1984 juil. 28 09:20  zcat*
+-rwxr-xr-x 1 tigro 197609    1678 juil. 28 09:20  zcmp*
+-rwxr-xr-x 1 tigro 197609    5880 juil. 28 09:20  zdiff*
+-rwxr-xr-x 1 tigro 197609      29 juil. 28 09:20  zegrep*
+-rwxr-xr-x 1 tigro 197609      29 juil. 28 09:20  zfgrep*
+-rwxr-xr-x 1 tigro 197609    2081 juil. 28 09:20  zforce*
+-rwxr-xr-x 1 tigro 197609    7592 juil. 28 09:20  zgrep*
+-rwxr-xr-x 1 tigro 197609    2953 juil. 28 09:20  zipgrep*
+-rwxr-xr-x 1 tigro 197609  173708 juil. 28 09:20  zipinfo.exe*
+-rwxr-xr-x 1 tigro 197609    2206 juil. 28 09:20  zless*
+-rwxr-xr-x 1 tigro 197609    1842 juil. 28 09:20  zmore*
+-rwxr-xr-x 1 tigro 197609    4553 juil. 28 09:20  znew*
+
+tigro@LAPTOP-B1C50INO MINGW64 ~
+$ pwd
+/c/Users/tigro
+
+tigro@LAPTOP-B1C50INO MINGW64 ~
+$ cd Images
+bash: cd: Images: No such file or directory
+
+tigro@LAPTOP-B1C50INO MINGW64 ~
+$ cd Pictures
+
+tigro@LAPTOP-B1C50INO MINGW64 ~/Pictures
+$ cd ..
+
+tigro@LAPTOP-B1C50INO MINGW64 ~
+$ cd /opt
+bash: cd: /opt: No such file or directory
+
+tigro@LAPTOP-B1C50INO MINGW64 ~
+$ cd /Pictures
+bash: cd: /Pictures: No such file or directory
+
+tigro@LAPTOP-B1C50INO MINGW64 ~
+$ pwd
+/c/Users/tigro
+
+tigro@LAPTOP-B1C50INO MINGW64 ~
+$ cd /Public
+bash: cd: /Public: No such file or directory
+
+tigro@LAPTOP-B1C50INO MINGW64 ~
+$ cd /Users
+bash: cd: /Users: No such file or directory
+
+tigro@LAPTOP-B1C50INO MINGW64 ~
+$ cd
+
+tigro@LAPTOP-B1C50INO MINGW64 ~
+$ cd ~/Music
+
+tigro@LAPTOP-B1C50INO MINGW64 ~/Music
+$
