@@ -1,0 +1,45 @@
+celia@celia-IdeaPad-3-15ADA05:~/quests/shell/planets$ find
+.
+./habitées
+./habitées/arrakis.jpeg
+./habitées/earth.jpeg
+./habitées/cybertron.jpeg
+./habitées/coruscant.jpeg
+./réelles
+./réelles/géantes-gazeuses
+./réelles/géantes-gazeuses/neptune.jpeg
+./réelles/géantes-gazeuses/saturn.jpeg
+./réelles/géantes-gazeuses/jupiter.jpeg
+./réelles/géantes-gazeuses/uranus.jpeg
+./réelles/terrestre
+./réelles/terrestre/mercury.jpeg
+./réelles/terrestre/mars.jpeg
+./réelles/terrestre/earth.jpeg
+./réelles/terrestre/venus.jpeg
+./fictives
+./fictives/arrakis.jpeg
+./fictives/cybertron.jpeg
+./fictives/coruscant.jpeg
+
+
+21  sudo apt-get install -y curl unzip
+   22  1
+   23  2
+   24  curl -L -o planets.zip https://github.com/WildCodeSchool/quests-resources/blob/master/terminal/planets.zip?raw=true
+   25  unzip planets.zip
+   26  mkdir réelles fictives habitées
+   27  mv réelles fictives habitées planets/
+   28  mkdir planets/réelles/terrestre planets/réelles/géantes-gazeuses planets/réelles/planètes-naines
+   30  cd planets
+   35  mv earth.jpeg réelles/terrestre
+   38  mv jupiter.jpeg saturne.jpeg uranus.jpeg neptune.jpeg réelles/géantes-gazeuses
+   39  mv mercury.jpeg réelles/géantes-gazeuses
+   41  mv saturn.jpeg réelles/géantes-gazeuses
+   43  mv réelles/géantes-gazeuses/mercury.jpeg réelles/terrestre
+   45  mv pluto.jpeg réelles/planètes-naines
+   47  mv mars.jpeg réelles/terrestre
+   49  mv venus.jpeg réelles/terrestre
+   51  mv arrakis.jpeg cybertron.jpeg coruscant.jpeg fictives
+   53  cp fictives/arrakis.jpeg fictives/cybertron.jpeg fictives/coruscant.jpeg habitées
+   55  cp réelles/terrestre/earth.jpeg habitées
+   59  rm -r réelles/planètes-naines
