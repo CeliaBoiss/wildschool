@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Find the precious!</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li class="title">FindThePrecious.com</li>
+                <li>Fellows</li>
+                <li>Contact us</li>
+            </ul>
+        </nav>
+        <section>
+            <div class="carousel"></div>
+        </section>
+        <section>
+            <h2 class="fellows">Fellows wanted dead <span class="eat">(or alive if you want to eat them later)</span></h2>
+        </section>
+        <section class="listFellows">
+            <article></article>
+            <article></article>
+            <article></article>         
+        </section>
+        <div class="trait"></div>
+        <form>
+            <h2>Contact us</h2>
+            <input class="contactus" type="email" placeholder="@">
+            <input class="contactus" type="text" placeholder="&#8962;">
+            <input class="contactus" type="text" placeholder="I have seen one of them">
+            <textarea class="contactus" placeholder="Your message"></textarea>
+        </form>
+    </body>
+</html>
+
+* {box-sizing: border-box;}	
+
+li {display:inline;
+   color:white;
+   padding: .5em;}
+
+li:hover{background-color: white;
+   color:black;}
+
+ul {padding: .5em;}
+
+nav {height: 40px;
+   width: 100%;
+   background-color: #282828;}
+
+.title {font-weight:bold;
+   font-size:20px;}
+
+.carousel {background-color: #C7C7C7;
+   width: 100%;
+   height: 200px;}
+
+.fellows {text-align:center;
+   color: #282828;}
+
+.eat {font-size:17px;}
+
+article {background-color: #C7C7C7;
+   height: 350px;
+   width: 33%;
+   display: inline-block;}
+
+.trait {height: 1pt;
+   width: 100%;
+   background-color: black;
+   margin-top: 50px;}
+
+.contactus {display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 70%;
+   margin-top: 10px;}
+
+textarea {height: 150px;}
