@@ -1,0 +1,12 @@
+celia@celia-IdeaPad-3-15ADA05:~/my-website-oops$ git log --oneline
+d7e2eb2 (HEAD -> master) add p
+081c333 update title
+4bb2c6e create index.html
+celia@celia-IdeaPad-3-15ADA05:~/my-website-oops$ git revert HEAD
+[master 85e025f] Revert "add p"
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+celia@celia-IdeaPad-3-15ADA05:~/my-website-oops$ git log --oneline
+85e025f (HEAD -> master) Revert "add p"
+d7e2eb2 add p
+081c333 update title
+4bb2c6e create index.html
